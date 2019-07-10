@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 .logo-content {
   width: 100%;
   padding: 3%;
@@ -8,8 +10,8 @@
 }
 
 .logo-content img {
-  width: 30%;
-  margin-left: 35%;
+  width: 50%;
+  margin-left: 25%;
   margin-right: auto;
 }
 
@@ -28,48 +30,31 @@
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Russo One', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Pacifico', cursive;
 }
 
 .about, .portfolio, .contact {
   color: #1b3d6b;
   text-align: center;
-  margin-bottom: 5%;
 }
 
 .about h1, .portfolio h1, .contact h1 {
   font-size: 4em;
+  color: #b8529f;
+  font-weight: bold;
 }
 
 .about {
-  padding: 3%;
+  padding: 5%;
   height: auto;
+  background-image: url("../img/bg-about.png");
 }
 
-.about .btn-dark {
-  font-family: 'Russo One', sans-serif;
-  background-color: #3C1313;
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #FFF;
-  width: 100%;
-  -webkit-transition: border 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
-  -moz-transition: border 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
-  transition: border 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+.about img.logo {
+  margin: 3% auto;
+  width: 25%;
 }
 
-.about .btn-dark:hover, .about .btn-dark:focus, .about .btn-dark:active {
-  color: #3C1313;
-  background-color: #FFF;
-  border: 1px solid #3C1313;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  -webkit-transition: border 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
-  -moz-transition: border 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
-  transition: border 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
-}
 
 .services .text-primary {
   color: #3C1313;
@@ -195,4 +180,9 @@ a.proy-mas:hover {
 .lead {
   line-height: 160%;
   margin-bottom: 3%;
+}
+
+footer {
+  background-color: #b8529f;
+  color: #FFF;
 }
