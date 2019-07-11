@@ -36,6 +36,17 @@ h1, h2, h3, h4, h5 {
 .about, .portfolio, .contact {
   color: #1b3d6b;
   text-align: center;
+  padding: 5%;
+  height: auto;
+}
+
+.about {
+  background-image: url("../img/bg-about.png");
+}
+
+.contact {
+  background-image: url('../img/bg-contact.png');
+  background-size: 100%;
 }
 
 .about h1, .portfolio h1, .contact h1 {
@@ -44,28 +55,20 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 
-.about {
-  padding: 5%;
-  height: auto;
-  background-image: url("../img/bg-about.png");
-}
-
 .about img.logo {
   margin: 3% auto;
   width: 25%;
 }
 
+.contact .img {
+  float: left;
+}
 
 .services .text-primary {
   color: #3C1313;
 }
 
-.contact {
-  background-image: url('/src/img/bg.jpg');
-  height: auto;
-  overflow: auto;
-  margin-bottom: 0;
-}
+
 
 .contact label, .contact input, .contact textarea {
   width: 100%;
